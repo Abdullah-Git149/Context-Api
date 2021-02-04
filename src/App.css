@@ -1,3 +1,12 @@
+body{
+  color: white;
+  background: rgb(219,158,185);
+background: linear-gradient(193deg, rgba(219,158,185,1) 7%, rgba(148,187,233,1) 100%);
+}
+
+thead{
+  color: white;
+}
 .App {
   text-align: center;
 }
