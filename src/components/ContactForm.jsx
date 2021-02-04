@@ -30,23 +30,23 @@ const ContactForm = () => {
                         className="form-control"
                         placeholder="Enter The Name"
                         value={name}
-                        onChange={setName} />
+                        onChange={setName}  required/>
                 </div>
 
                 <div className="form-group">
-                    <input type="text"
+                    <input type="email"
                         className="form-control"
                         placeholder="Enter The Email"
                         value={email}
-                        onChange={setEmail} />
+                        onChange={setEmail} required />
                 </div>
 
                 <div className="form-group">
-                    <input type="text"
+                    <input type="number"
                         className="form-control"
                         placeholder="Enter The Phone"
                         value={phone}
-                        onChange={setPhone} />
+                        onChange={setPhone} required/>
                 </div>
 
                 <div className="form-group">
