@@ -24,7 +24,7 @@ const ContactForm = () => {
     return (
         <div>
             <form onSubmit={addNewContact}>
-                <h3 className="mb-5">Add Contact</h3>
+                <h2 className="mb-5"><b> Add Contact</b></h2>
                 <div className="form-group">
                     <input type="text"
                         className="form-control"
@@ -51,7 +51,7 @@ const ContactForm = () => {
 
                 <div className="form-group">
                     <input type="submit" value="Add Contact"
-                        className="btn btn-info"
+                        className="btn btn-outline-secondary"
                     />
                 </div>
             </form>
